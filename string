@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Enter file"
+read f
+word=$(wc -w < "$f" )
+echo "number of words = $word"
+char=$(wc -c < "$f" )
+echo "number of characters = $char"
+
